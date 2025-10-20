@@ -6,7 +6,7 @@
 #define SCREEN_HEIGHT 64
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, -1);
 
-#define UP_BUTTON 32
+#define UP_BUTTON 27
 #define DOWN_BUTTON 33
 
 int playerY = 30;
